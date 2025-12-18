@@ -32,13 +32,13 @@ circleStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 circleStroke.Parent = fovCircle
 
 local btn = Instance.new("TextButton")
-btn.Size = UDim2.new(0, 60, 0, 60)
+btn.Size = UDim2.new(0, 40, 0, 40)
 btn.Position = UDim2.new(0, 50, 0, 50)
 btn.BackgroundColor3 = Color3.new(0, 0, 0)
 btn.TextColor3 = Color3.new(1, 1, 1)
-btn.Text = "B"
+btn.Text = "Bdev"
 btn.Font = Enum.Font.SourceSansBold
-btn.TextSize = 32
+btn.TextSize = 28
 btn.BorderSizePixel = 0
 btn.Parent = gui
 
