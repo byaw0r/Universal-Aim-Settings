@@ -60,7 +60,7 @@ menuCorner.Parent = menu
 local aim = false
 local esp = false
 local wall = false
-local fovSize = 50
+local fovSize = 40
 
 local highlights = {}
 
@@ -123,7 +123,7 @@ boxCorner.Parent = box
 box.FocusLost:Connect(function()
     local v = tonumber(box.Text)
     if v then
-        fovSize = math.clamp(v, 50, 300)
+        fovSize = math.clamp(v, 10, 300)
         label.Text = "FOV: " .. math.floor(fovSize)
         box.Text = tostring(math.floor(fovSize))
     else
