@@ -60,7 +60,7 @@ menuCorner.Parent = menu
 local aim = false
 local esp = false
 local wall = false
-local fovSize = 40
+local fovSize = 35
 
 local highlights = {}
 
